@@ -8,3 +8,8 @@
 [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 [“Russia”, “Denmark”, “Kazan”] → []
 */
+using static System.Console;
+
+string[] arr1 = new string[]{"Hello","2","world",":-)"};
+string[] arr2 = new string[] { "1234", "1567", "-2", "computer science" };
+string[] arr3 = new string[] { "Russia", "Denmark", "Kazan"};
