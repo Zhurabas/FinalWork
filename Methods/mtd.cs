@@ -14,4 +14,24 @@ public static void printStringArr(string[]arr)
     }
     Write("]");
 }
+public static string[] noMore3SymArr(string[]arr)
+{
+    int resultLength = 0;
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (arr[i].Length<4)resultLength++;
+    }
+
+    string[] result=new string[resultLength];
+    int counter = 0;
+    for (int i = 0; i < arr.Length; i++)
+    {
+            if (arr[i].Length < 4)
+            {
+                result[counter++] = arr[i]; 
+            }
+            else continue;
+    }
+    return result;
+}
 }
