@@ -34,4 +34,11 @@ public static string[] noMore3SymArr(string[]arr)
     }
     return result;
 }
+public static void printResult(string[] arr)
+{ 
+printStringArr(arr);
+Write(" → ");
+printStringArr(noMore3SymArr(arr));
+    Write("\n");
+}
 }
