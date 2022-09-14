@@ -8,8 +8,7 @@ public static void printStringArr(string[]arr)
     Write("[");
     for (int i = 0; i < arr.Length; i++)
     {
-        for (int j = 0; j < arr[i].Length; j++)
-            Write($"{arr[i][j]}");
+            Write($"{arr[i]}");
        if(i!=arr.Length-1) Write(", ");
     }
     Write("]");
@@ -30,7 +29,6 @@ public static string[] noMore3SymArr(string[]arr)
             {
                 result[counter++] = arr[i]; 
             }
-            else continue;
     }
     return result;
 }
