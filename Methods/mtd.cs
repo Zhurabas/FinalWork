@@ -8,7 +8,7 @@ public static void printStringArr(string[]arr)
     Write("[");
     for (int i = 0; i < arr.Length; i++)
     {
-            Write($"{arr[i]}");
+            Write($"\"{arr[i]}\"");
        if(i!=arr.Length-1) Write(", ");
     }
     Write("]");
